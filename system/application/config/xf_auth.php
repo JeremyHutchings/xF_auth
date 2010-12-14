@@ -3,7 +3,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 
 /**
- * Config for the xF_auth (xenForo) libary for CodeIgniter 
+ * Config for the xfAuth (xenForo) libary for CodeIgniter 
  *
  *
  * PHP version 5.2 (as needed by xF)
@@ -17,18 +17,18 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
  */
  
 /**
- * Config options for xf_auth
+ * Config options for xfAuth
  */
 
-$config['xf_auth'] = array();
+$config['xfAuth'] = array();
 
 /**
  * Use for link construction
  */
-$config['xf_auth']['forum_url'] = 'http://your.domain.com/forums/';
+$config['xfAuth']['forumUrl'] = 'http://your.domain.com/forums/';
 
 
 /**
  * Root location for xenForo install, to locate Autoloader 
  */
-$config['xf_auth']['file_dir'] = '/var/www/xenforo' 
+$config['xfAuth']['fileDir'] = '/var/www/xenforo';
